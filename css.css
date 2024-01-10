@@ -1,0 +1,551 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Caveat&family=Dhurjati&family=Ephesis&family=Luckiest+Guy&family=Open+Sans:wght@300&family=Permanent+Marker&family=Playfair+Display&family=Roboto:ital,wght@1,100;1,900&family=Rubik+Bubbles&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Caveat&family=Dhurjati&family=Ephesis&family=Open+Sans:wght@300&family=Playfair+Display&family=Roboto:ital,wght@1,100;1,900&family=Rubik+Bubbles&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Caveat&family=Ephesis&family=Open+Sans:wght@300&family=Playfair+Display&family=Roboto:ital,wght@1,100;1,900&family=Rubik+Bubbles&display=swap');
+    body {
+      padding: 0;
+      margin: 0;
+      background-color: black;
+      
+    }
+
+    header {
+      background-image: url(img/header.gif);
+      box-sizing: border-box;
+      border: 0px solid black;
+      width: 100%;
+      padding: 150px;
+
+      text-align: center;
+      background-color: rgb(0, 0, 0);
+      
+      
+    }
+    
+
+    h1 {
+      font-size: 90px;
+      color: white;
+      
+      font-family:Luckiest Guy ;
+      letter-spacing: 7px;
+      font-stretch: ultra-expanded;
+      font-style: italic;
+      text-shadow: #000000 100%;
+      text-shadow: 30px 30px 10px rgba(0, 0, 0, 0.5);
+      
+      background-color: transparent
+    }
+
+    h2 {
+      color: white;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-style: italic;
+    }
+    h3{
+        margin-left: 20%px;
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        
+        font-family:Luckiest Guy ;
+        letter-spacing: 4px;
+        font-stretch: ultra-expanded;
+        font-style: italic;
+        text-shadow: #000000 100%;
+        text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    }
+    h4{
+      color: white;
+     
+    }
+    
+      h5 {
+      font-size: 20px;
+      color: white;
+      font-family: Roboto;
+      text-shadow: #000000 ;
+      
+      background-color: transparent
+    }
+    h6 {
+        margin-left: 180px;
+        font-size: 30px;
+        color: white;
+        
+        font-family:Luckiest Guy ;
+        letter-spacing: 4px;
+        font-stretch: ultra-expanded;
+        font-style: italic;
+        text-shadow: #000000 100%;
+        text-shadow: 30px 30px 10px rgba(0, 0, 0, 0.5);
+        
+        background-color: transparent
+      }
+    .eslogan{
+      font-family:caveat;
+      font-size: 20px;
+      color: #ffffff;
+    }
+
+
+
+
+    .aside {
+      box-sizing: border-box;
+      border: 0px solid black;
+      width: 25%;
+      background-color: black;
+      height: 1800px;
+      padding: 10px;
+      float: right;
+    }
+
+    .nav {
+      margin-bottom: 0px;
+      text-align: center;
+      width: 100%;
+
+    }
+
+
+
+    .button {
+      background-color: #000000;
+      color: rgb(255, 255, 255);
+      border-radius: 0px;
+      width: 100%;
+      height: 50px;
+      opacity: 100%;
+      font-family: Dhurjati;
+      font-size: 20px;
+      
+
+    }
+
+    .button:hover {
+      background-color: #4a0571;
+      opacity: 70;
+    }
+
+    .button:hover .text {
+      animation: fadein 1s;
+      opacity: 100;
+    }
+
+    @keyframes fadein {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    .container1 {
+      height: 600px;
+      width: 75%;
+      float: left;
+      background-color: rgb(0, 0, 0);
+      border: none;
+      align-items: center;
+      background-image: url(img/container1.gif);
+      background-size: cover;
+    }
+
+    .container1_2 {
+      height: 500px;
+      width: 90%;
+      margin: 50px;
+      color: rgb(255, 255, 255);
+
+      display: flex;
+      align-items: left;
+      float: left;
+      background-color: transparent;
+      
+      figcaption{
+        text-decoration: none;
+        text-transform: none;
+        text-align: center;
+        color: white;
+
+            }
+
+
+
+    }
+     p{
+      font-family: caveat;
+      font-size: 20px;
+      opacity: 100%;
+    }
+    p1{
+        color: white;
+        font-family: Dhurjati;
+        font-size: 20px;
+        opacity: 100%;
+      }
+    p2{
+        color: white;
+        font-family: Dhurjati;
+        font-size: 35px;
+        opacity: 100%;
+      }
+      p3{
+        font-family:Luckiest Guy ;
+        font-size: 15px;
+        letter-spacing: 2px;
+        opacity: 100%;
+      } 
+
+
+    .container2 {
+      height: 600px;
+      width: 75%;
+      float: left;
+      background-color: rgb(0, 0, 0);
+      border: none;
+      align-items: center;
+      background-image: url(img/container2.jpg);
+    }
+
+    .container2_2 {
+      height: 500px;
+      width: 90%;
+      margin: 50px;
+      color: rgb(255, 255, 255);
+
+      display: flex;
+      align-items: left;
+      float: left;
+      background-color: transparent;
+
+    }
+
+    .container3 {
+      height: 600px;
+      width: 75%;
+      float: left;
+      background-color: rgb(0, 0, 0);
+      border: none;
+      align-items: center;
+      background-image: url(img/container3.gif);
+      
+      margin: 0;
+      padding: 0;
+    }
+
+    .container3_2 {
+      height: 500px;
+      width: 90%;
+      margin: 50px;
+      color: rgb(255, 255, 255);
+
+      display: flex;
+      align-items: left;
+      float: left;
+      background-color: transparent;
+    }
+    .img{
+      margin-left: 5px;
+      
+      
+    }
+    .footer{
+      width: 100%;
+      background-color: #000000;
+
+    }
+    .footer .grupo1{
+      width: 100%;
+      max-width: 1200px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 50px;
+      padding: 45px 0px;
+
+    }
+    .footer .grupo1 .box figure {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: left;
+      align-items: left;
+    }
+    .footer .grupo1 .box figure img{
+      width: 250px;
+      
+    }
+    
+    .footer .grupo1 .box h2 {
+      color: white;
+      margin-bottom: 25px;
+      font-size: 20px;
+
+    }
+    .footer .grupo1 .box p{
+      color: rgb(190, 186, 186);
+      margin-bottom: 10px;
+
+    }
+   
+    .footer .grupo2{
+      background-color: #0a1a2a;
+      padding: 15px 10px;
+      justify-content: center;
+      align-items: center;
+      
+      color: white;
+    }
+    .footer .grupo2 small{
+      font-size: 15px;
+    }      
+    .socialmedia{
+      color: white;
+      display: inline-block;
+      transform: none;
+      text-decoration: none;
+      width: 100%px;
+      height: 45px;
+      color: white;
+      margin-right: 5px;
+    }
+
+
+    
+    
+
+    
+    
+
+    
+
+    .redes {
+      background-color: white;
+      width: 75%;
+
+    }
+    
+
+    
+    .mismejorescompras img{
+      width: 100%;
+      height: 50%;
+
+    }
+    .a{
+      font-family: caveat;
+      text-transform: initial;
+      text-decoration: #ffffff;
+      color: white;
+    }
+    .img1{
+      width: 100%;
+      height: 100%;
+    }
+    /* Tienda de Beats */
+    .containerProductos{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 1100px;
+        background-color: black;
+        
+    }
+    .productos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+        
+    }
+    
+    .producto {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        margin: 15px;
+        width: 300px;
+        text-align: center;
+        float: left;
+        margin-left: 45px;
+    }
+    
+    .producto:hover img {
+        transform: rotate(360deg);
+    }
+    
+    .producto img {
+        width: 100%;
+        height: 100%; 
+        object-fit: cover;
+        border-bottom: 1px solid #ddd;
+        border-radius: 10px 10px 0 0; 
+        transition: transform 0.3s ease-in-out;
+        float: none;
+    }
+    
+    .producto h3 {
+        margin: 10px 0;
+        color: #333;
+    }
+    
+    .producto p {
+        color: #666;
+    }
+    
+    .btn-ver {
+        display: inline-block;
+        padding: 8px 16px;
+        margin: 10px;
+        background-color:#4a0571;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease-in-out;
+    }
+    
+    .btn-ver:hover {
+        background-color: #4a0571;
+    }
+    /**Cursos**/
+    .venderbeats{
+        width: 100%;
+        height:500px;
+        background-color: black;
+        
+    }
+    .containervenderbeats{
+        width: 100%;
+        height:100%;
+        margin: 3px;
+        background-color: rgb(0, 0, 0);
+        float: left;
+        
+        
+    }
+    .containervenderbeats img{
+        width: 50%;
+        height:70%;
+        margin: 50px;
+        
+        float: right;
+        
+    }
+    .mezclarvoces{
+        width: 100%;
+        height:500px;
+        background-color: black;
+
+    }
+    .containermezclarvoces{
+        width: 100%;
+        height:100%;
+        margin: 3px;
+        background-color: rgb(0, 0, 0);
+        float: right;
+    }
+    .containermezclarvoces img{
+        width: 50%;
+        height:70%;
+        margin: 50px;
+        
+        float: right;
+        
+    }
+    .teoriamusical{
+        width: 100%;
+        height:500px;
+        background-color: black;
+    }
+    .containerteoriamusical{
+        width: 100%;
+        height:100%;
+        margin: 3px;
+        background-color: rgb(0, 0, 0);
+        float: right;
+    }
+    .containerteoriamusical img{
+        width: 50%;
+        height:70%;
+        margin: 50px;
+        
+        float: right;
+        
+    }
+    
+    .btn{
+        text-decoration: none;
+        background-color: #4a0571;
+        color: #ffffff;
+        padding: 20px 40px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        margin-bottom: 100px;
+        margin-left: 250px;
+       transition: all 3s ease;
+        
+    }
+    .btn:hover{
+        background-color: #4a0571;
+        color: black;
+        box-shadow:
+        0 0 5px  #4a0571,
+        0 0 20px  #4a0571,
+        0 0 60px  #4a0571,
+        0 0 150px  #4a0571;
+        
+        
+    }
+    /*formulario*/
+    .formulario {
+        width: 50%px;
+        height: 900px;
+        background-color: #181818;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        align-items: center;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 100px;
+    }
+    label{
+        color: rgb(255, 255, 255);
+
+    }
+    textarea{
+        background-color: #000000;
+        color: white;
+    }
+    .contacto{
+        width: 50%px;
+        height: 900px;
+        background-color: #181818;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        align-items: center;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 100px;
+    }
+    .contacto img{
+        width: 500px;
+        height: 320px;
+        margin-top: 5%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    
+    
+    
+    
+
+    
+    
+   
